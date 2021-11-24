@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Where in the world
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./style.css/main.css">
+    
+    <!--<script src="https://kit.fontawesome.com/0caee64b38.js" crossorigin="anonymous"></script>-->
+</head>
+<body id="mainbody">
+    <div id="bodywrap">
+        <div id="restcontainer">
+            <div id="resthead">
+                <div class="logo">Where in the world?</div>
+                    <div id="themeswitch"><ion-icon name="moon"></ion-icon>Dark mode</div>
+            </div>
+                <div id="maincontainer">
+                    <div id="searchdiv">
+                        <div id="countrysearch"><ion-icon name="search-outline"></ion-icon>
+                            <form action="./details.html" method="POST" name="searchform">
+                                <input name="csearch" type="text" placeholder="search for a country..." id="csearch">
+                            </form>
+                        </div>
+                        <div id="regionsearch"><select name="dropdown" id="regiondd">
+                            <option name="Region">Filter by Region</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Oceania">Oceania</option>
+                        </select></div>
+                    </div>
+                    <div id="countrycontainer">
+                       
+                       
+                    </div>
+                </div>
+                <div id="detailbdw">
+                    <div id="backbtn"><ion-icon name="arrow-back-outline"></ion-icon>Back</div>
+                    <div id="detailcontainer">
+                       
+                           
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="./app.js/main.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
